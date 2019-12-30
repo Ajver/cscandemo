@@ -19,6 +19,10 @@ config/name="TEST"
 run/main_scene="res://Test.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+JS_API="*res://JS_API.gd"
+
 [rendering]
 
 quality/driver/driver_name="GLES2"
