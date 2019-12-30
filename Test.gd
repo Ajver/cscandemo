@@ -4,7 +4,6 @@ func _ready():
 	JS_API.connect("event", self, "_on_event")
 
 func _on_event(event_name, event_data):
-	prints("On event:", event_name, event_data)
 	match event_name:
 		'flip_camera':
 			flip_camera()
