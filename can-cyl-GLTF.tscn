@@ -1,0 +1,78 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://OptimizedCan/GLTF/can-cyl-GLTF.gltf" type="PackedScene" id=1]
+
+[node name="can-cyl-GLTF" instance=ExtResource( 1 )]
+transform = Transform( 0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0, 0 )
+
+[node name="BottomTarget" parent="." index="0"]
+visible = false
+
+[node name="Key 01Target" parent="." index="1"]
+visible = false
+
+[node name="Fill 01Target" parent="." index="2"]
+visible = false
+
+[node name="Fill 02Target" parent="." index="3"]
+visible = false
+
+[node name="Fill 03Target" parent="." index="4"]
+visible = false
+
+[node name="Key 02Target" parent="." index="5"]
+visible = false
+
+[node name="Key 03Target" parent="." index="6"]
+visible = false
+
+[node name="Key 04Target" parent="." index="7"]
+visible = false
+
+[node name="Key 05Target" parent="." index="8"]
+visible = false
+
+[node name="Fill 04Target" parent="." index="9"]
+visible = false
+
+[node name="Fill 05Target" parent="." index="10"]
+visible = false
+
+[node name="Fill 11Target" parent="." index="11"]
+visible = false
+
+[node name="Fill 12Target" parent="." index="12"]
+visible = false
+
+[node name="Key 11Target" parent="." index="13"]
+visible = false
+
+[node name="Key 12Target" parent="." index="14"]
+visible = false
+
+[node name="TopTarget" parent="." index="15"]
+visible = false
+
+[node name="BackTarget" parent="." index="16"]
+visible = false
+
+[node name="Key 16Target" parent="." index="17"]
+visible = false
+
+[node name="Key 17Target" parent="." index="18"]
+visible = false
+
+[node name="Key 18Target" parent="." index="19"]
+visible = false
+
+[node name="Key 19Target" parent="." index="20"]
+visible = false
+
+[node name="Key 22Target" parent="." index="21"]
+visible = false
+
+[node name="Key 23Target" parent="." index="22"]
+visible = false
+
+[node name="Default light" parent="." index="24"]
+visible = false

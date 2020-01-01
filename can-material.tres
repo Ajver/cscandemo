@@ -5,5 +5,4 @@
 [resource]
 resource_name = "Material #99"
 params_cull_mode = 2
-albedo_color = Color( 0.588, 0.588, 0.588, 1 )
 albedo_texture = ExtResource( 1 )
