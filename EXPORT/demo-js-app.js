@@ -19,8 +19,10 @@ const onEvent = (eventName, eventData) => {
 	switch(eventName) {
 		case 'ready':
 			createDemoEventButton();		
+			break;
 		case 'alert':
 			alert(eventData);
+			break;
 		default:
 			console.log("Unexpected event:", eventName, eventData)
 	}
