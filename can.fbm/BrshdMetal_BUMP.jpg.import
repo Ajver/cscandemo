@@ -5,15 +5,16 @@ type="StreamTexture"
 path.s3tc="res://.import/BrshdMetal_BUMP.jpg-81d29b3eaedd10c2c66f6aec7be2b203.s3tc.stex"
 path.etc2="res://.import/BrshdMetal_BUMP.jpg-81d29b3eaedd10c2c66f6aec7be2b203.etc2.stex"
 path.etc="res://.import/BrshdMetal_BUMP.jpg-81d29b3eaedd10c2c66f6aec7be2b203.etc.stex"
+path.pvrtc="res://.import/BrshdMetal_BUMP.jpg-81d29b3eaedd10c2c66f6aec7be2b203.pvrtc.stex"
 metadata={
-"imported_formats": [ "s3tc", "etc2", "etc" ],
+"imported_formats": [ "s3tc", "etc2", "etc", "pvrtc" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://can.fbm/BrshdMetal_BUMP.jpg"
-dest_files=[ "res://.import/BrshdMetal_BUMP.jpg-81d29b3eaedd10c2c66f6aec7be2b203.s3tc.stex", "res://.import/BrshdMetal_BUMP.jpg-81d29b3eaedd10c2c66f6aec7be2b203.etc2.stex", "res://.import/BrshdMetal_BUMP.jpg-81d29b3eaedd10c2c66f6aec7be2b203.etc.stex" ]
+dest_files=[ "res://.import/BrshdMetal_BUMP.jpg-81d29b3eaedd10c2c66f6aec7be2b203.s3tc.stex", "res://.import/BrshdMetal_BUMP.jpg-81d29b3eaedd10c2c66f6aec7be2b203.etc2.stex", "res://.import/BrshdMetal_BUMP.jpg-81d29b3eaedd10c2c66f6aec7be2b203.etc.stex", "res://.import/BrshdMetal_BUMP.jpg-81d29b3eaedd10c2c66f6aec7be2b203.pvrtc.stex" ]
 
 [params]
 

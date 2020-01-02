@@ -5,15 +5,16 @@ type="StreamTexture"
 path.s3tc="res://.import/Material #99_baseColor.png-4b2329e98fd03f9c53767b977637a954.s3tc.stex"
 path.etc2="res://.import/Material #99_baseColor.png-4b2329e98fd03f9c53767b977637a954.etc2.stex"
 path.etc="res://.import/Material #99_baseColor.png-4b2329e98fd03f9c53767b977637a954.etc.stex"
+path.pvrtc="res://.import/Material #99_baseColor.png-4b2329e98fd03f9c53767b977637a954.pvrtc.stex"
 metadata={
-"imported_formats": [ "s3tc", "etc2", "etc" ],
+"imported_formats": [ "s3tc", "etc2", "etc", "pvrtc" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://OptimizedCan/GLTF/Material #99_baseColor.png"
-dest_files=[ "res://.import/Material #99_baseColor.png-4b2329e98fd03f9c53767b977637a954.s3tc.stex", "res://.import/Material #99_baseColor.png-4b2329e98fd03f9c53767b977637a954.etc2.stex", "res://.import/Material #99_baseColor.png-4b2329e98fd03f9c53767b977637a954.etc.stex" ]
+dest_files=[ "res://.import/Material #99_baseColor.png-4b2329e98fd03f9c53767b977637a954.s3tc.stex", "res://.import/Material #99_baseColor.png-4b2329e98fd03f9c53767b977637a954.etc2.stex", "res://.import/Material #99_baseColor.png-4b2329e98fd03f9c53767b977637a954.etc.stex", "res://.import/Material #99_baseColor.png-4b2329e98fd03f9c53767b977637a954.pvrtc.stex" ]
 
 [params]
 
