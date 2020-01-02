@@ -11,7 +11,7 @@ func _on_event(event_name, event_data):
 			prints("Unexpected event:", event_name, event_data)
 	
 func flip_camera() -> void:
-	$Camera.rotate_z(PI)
+	$CameraRoot/Camera.rotate_z(PI)
 
 func _process(delta):
 	$CameraRoot.rotate_y(delta * 0.2)
