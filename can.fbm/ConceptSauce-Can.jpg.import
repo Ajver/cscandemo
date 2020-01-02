@@ -7,7 +7,7 @@ path.etc2="res://.import/ConceptSauce-Can.jpg-216c6c883c8b5469baf983fe6ca2dd16.e
 path.etc="res://.import/ConceptSauce-Can.jpg-216c6c883c8b5469baf983fe6ca2dd16.etc.stex"
 path.pvrtc="res://.import/ConceptSauce-Can.jpg-216c6c883c8b5469baf983fe6ca2dd16.pvrtc.stex"
 metadata={
-"imported_formats": [ "s3tc", "etc2", "etc", "pvrtc" ],
+"imported_formats": [ "bptc", "s3tc", "etc2", "etc", "pvrtc" ],
 "vram_texture": true
 }
 

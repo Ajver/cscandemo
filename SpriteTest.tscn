@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://OptimizedCan/GLTF/Material #99_baseColor.png" type="Texture" id=1]
+[ext_resource path="res://OptimizedCan/ConceptSauceCan1024.jpg" type="Texture" id=1]
 
 [node name="Node2D" type="Node2D"]
 

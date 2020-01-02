@@ -7,7 +7,7 @@ path.etc2="res://.import/Material #111_baseColor.png-51454e71813e2b40caf9925191c
 path.etc="res://.import/Material #111_baseColor.png-51454e71813e2b40caf9925191c207e8.etc.stex"
 path.pvrtc="res://.import/Material #111_baseColor.png-51454e71813e2b40caf9925191c207e8.pvrtc.stex"
 metadata={
-"imported_formats": [ "s3tc", "etc2", "etc", "pvrtc" ],
+"imported_formats": [ "bptc", "s3tc", "etc2", "etc", "pvrtc" ],
 "vram_texture": true
 }
 
