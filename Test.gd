@@ -14,7 +14,5 @@ func flip_camera() -> void:
 	$Camera.rotate_z(PI)
 
 func _process(delta):
-	$can.rotate_x(delta)
-	$can.rotate_y(delta)
-	$can.rotate_z(-delta)
+	$CameraRoot.rotate_y(delta * 0.2)
 	
