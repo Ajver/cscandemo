@@ -2,30 +2,26 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/ConceptSauceCan2048.jpg-02275355d958819a304ce90f660fa7dd.s3tc.stex"
-path.etc2="res://.import/ConceptSauceCan2048.jpg-02275355d958819a304ce90f660fa7dd.etc2.stex"
-path.etc="res://.import/ConceptSauceCan2048.jpg-02275355d958819a304ce90f660fa7dd.etc.stex"
-path.pvrtc="res://.import/ConceptSauceCan2048.jpg-02275355d958819a304ce90f660fa7dd.pvrtc.stex"
+path="res://.import/ConceptSauceCan2048.jpg-02275355d958819a304ce90f660fa7dd.stex"
 metadata={
-"imported_formats": [ "bptc", "s3tc", "etc2", "etc", "pvrtc" ],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://OptimizedCan/ConceptSauceCan2048.jpg"
-dest_files=[ "res://.import/ConceptSauceCan2048.jpg-02275355d958819a304ce90f660fa7dd.s3tc.stex", "res://.import/ConceptSauceCan2048.jpg-02275355d958819a304ce90f660fa7dd.etc2.stex", "res://.import/ConceptSauceCan2048.jpg-02275355d958819a304ce90f660fa7dd.etc.stex", "res://.import/ConceptSauceCan2048.jpg-02275355d958819a304ce90f660fa7dd.pvrtc.stex" ]
+dest_files=[ "res://.import/ConceptSauceCan2048.jpg-02275355d958819a304ce90f660fa7dd.stex" ]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
-flags/repeat=true
+flags/repeat=0
 flags/filter=true
-flags/mipmaps=true
+flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
 process/fix_alpha_border=true

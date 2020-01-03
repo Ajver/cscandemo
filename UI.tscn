@@ -18,7 +18,22 @@ anchor_top = 1.0
 anchor_bottom = 1.0
 margin_top = -14.0
 margin_right = 40.0
-text = "Version 2"
+text = "Version 3"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MessagePopup" type="AcceptDialog" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -150.0
+margin_top = -60.0
+margin_right = 150.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 300, 120 )
+window_title = "Message"
 __meta__ = {
 "_edit_use_anchors_": false
 }
