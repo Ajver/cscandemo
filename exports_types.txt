@@ -1,0 +1,33 @@
+All versions without debug
+
+v1
+All formats
+
+v2
+Without first 
+
+v3 
+Without first and last
+
+v4 
+Only ETC 1
+
+v5 
+ETC 1 and Pvrtc
+
+v6
+ETC 1 and S3Tc
+
+Uncompressed
+
+imp1
+2D Pixel
+
+imp2
+2D, detect 3D
+
+imp3
+3D
+
+imp4
+2D
