@@ -14,7 +14,7 @@ func load_image_to_mesh_surface(image_name:String, surface_id:int = 0) -> void:
 	var http_request = HTTPRequest.new()
 	
 	var request_url = IMAGES_PATH + image_name
-	print(request_url)
+	print("URL:", request_url)
 	var http_error = http_request.request(request_url)
 	http_request.connect("request_completed", self, "_on_HTTPRequest_completed", [http_request, surface_id])
 	
