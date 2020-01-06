@@ -33,10 +33,8 @@ func _on_HTTPRequest_completed(result, response_code, headers, body, http_req_no
 	var texture = ImageTexture.new()
 	texture.create_from_image(image)
 	
-#	var surface_material := SpatialMaterial.new()
 	var surface_material = $MeshInstance.get_surface_material(surface_id)
 	surface_material.albedo_texture = texture
-#	$MeshInstance.set_surface_material(surface_id, surface_material)
 	
 	http_req_node.queue_free()
 
