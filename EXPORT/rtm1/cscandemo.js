@@ -356,9 +356,9 @@ var Module=typeof Module!=="undefined"?Module:{};var IDHandler=function(){var id
 	}
 
 <<<<<<< HEAD
-	function loadXHR(resolve, reject, file, tracker) {
-=======
 	    function loadXHR(resolve, reject, file, tracker) {  if (file.substr(-5) === '.wasm' || file.substr(-4) === '.pck') { file += '.gz'; var resolve_orig = resolve; resolve = function(xhr) { return resolve_orig(xhr.responseURL.substr(-3) === '.gz' ? { response: pako.inflate(xhr.response),    responseType: xhr.responseType, responseURL: xhr.responseURL, status: xhr.status,   statusText: xhr.statusText } : xhr); }; }
+=======
+	        function loadXHR(resolve, reject, file, tracker) {  if (file.substr(-5) === '.wasm' || file.substr(-4) === '.pck') { file += '.gz'; var resolve_orig = resolve; resolve = function(xhr) { return resolve_orig(xhr.responseURL.substr(-3) === '.gz' ? { response: pako.inflate(xhr.response),    responseType: xhr.responseType, responseURL: xhr.responseURL, status: xhr.status,   statusText: xhr.statusText } : xhr); }; }  if (file.substr(-5) === '.wasm' || file.substr(-4) === '.pck') { file += '.gz'; var resolve_orig = resolve; resolve = function(xhr) { return resolve_orig(xhr.responseURL.substr(-3) === '.gz' ? { response: pako.inflate(xhr.response),    responseType: xhr.responseType, responseURL: xhr.responseURL, status: xhr.status,   statusText: xhr.statusText } : xhr); }; }
 >>>>>>> 6154125646d168479a10a3bff8ff074030bb3932
 
 		var xhr = new XMLHttpRequest;
