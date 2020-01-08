@@ -50,5 +50,6 @@ texture={
 
 quality/driver/driver_name="GLES2"
 vram_compression/import_etc=true
+quality/filters/msaa=2
 environment/default_environment="res://default_env.tres"
 environment/main_scene="res://SpriteTest.tscn"
