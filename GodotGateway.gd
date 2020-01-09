@@ -9,7 +9,7 @@ func _call_func(func_name:String):
 	return JS_API.call_function("gatewayToGodot." + func_name)
 
 func _ready():
-	GodotGateway.new_event('ready', '')
+	GodotGateway.call_deferred("new_event", 'ready', '')
 
 func _process(delta):
 	if GodotGateway._call_func("hasEvent"):
