@@ -1,7 +1,7 @@
 extends Spatial
 
 func _ready():
-	JS_API.connect("event", self, "_on_event")
+	GodotGateway.connect("event", self, "_on_event")
 
 func _on_event(event_name, event_data):
 	match event_name:

@@ -3,13 +3,13 @@ window.addEventListener('load', () => {
 	// Called 20 times per second
 	window.setInterval(() => {
 		
-		if(godotEvents.hasEvent()) {		
+		if(gatewayToReact.hasEvent()) {		
 			do {
-				const event = godotEvents.popEvent();
+				const event = gatewayToReact.popEvent();
 				onEvent(event.name, event.data);
-			}while(godotEvents.hasEvent());	
+			}while(gatewayToReact.hasEvent());	
 		
-			godotEvents.clearEventsArray();
+			gatewayToReact.clearEventsArray();
 		}
 		
 	}, 50);
@@ -29,11 +29,11 @@ const onEvent = (eventName, eventData) => {
 }
 
 const createDemoEventButton = () => {
-	
 	const btn = document.createElement('button');
 	btn.addEventListener('click', () => {
-		reactEvents.newEvent('flip_camera', 'foo');
-	})
+		gatewayToGodot.newEvent('js_event', 'This message comes from JS App');
+		console.log("Creating new react event...");
+	}, true)
 	
 	btn.innerHTML = 'Call JS event';
 	

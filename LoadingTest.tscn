@@ -1,10 +1,11 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://LoadingTest.gd" type="Script" id=1]
 [ext_resource path="res://default_env.tres" type="Environment" id=2]
 [ext_resource path="res://OptimizedCan/img/cs-gray512.jpg" type="Texture" id=3]
 [ext_resource path="res://can-cyl-FBX-mesh.tres" type="ArrayMesh" id=4]
 [ext_resource path="res://OptimizedCan/img/cs512.jpg" type="Texture" id=5]
+[ext_resource path="res://UI.tscn" type="PackedScene" id=6]
 
 [sub_resource type="SpatialMaterial" id=1]
 albedo_texture = ExtResource( 3 )
@@ -28,3 +29,5 @@ material/1 = SubResource( 2 )
 [node name="DirectionalLight" type="DirectionalLight" parent="."]
 transform = Transform( 0.846323, 0, -0.532669, 0, 1, 0, 0.532669, 0, 0.846323, -5.82635, 0, 1.23221 )
 light_energy = 0.5
+
+[node name="UI" parent="." instance=ExtResource( 6 )]
