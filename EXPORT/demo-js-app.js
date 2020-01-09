@@ -31,9 +31,9 @@ const onEvent = (eventName, eventData) => {
 const createDemoEventButton = () => {
 	const btn = document.createElement('button');
 	btn.addEventListener('click', () => {
+		console.log("Clicking...");
 		gatewayToGodot.newEvent('js_event', 'This message comes from JS App');
-		console.log("Creating new react event...");
-	}, true)
+	})
 	
 	btn.innerHTML = 'Call JS event';
 	
