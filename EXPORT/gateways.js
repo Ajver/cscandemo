@@ -58,7 +58,7 @@ class GatewayToReact extends IDefaultGateway {
 // Events happens in ReactJS to tell Godot app
 const gatewayToGodot = new GatewayToGodot();
 
-// Events happens in Godot to tell Godot app
+// Events happens in Godot to tell ReactJS app
 const gatewayToReact = new GatewayToReact();
 
 
