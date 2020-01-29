@@ -19,4 +19,3 @@ transform = Transform( 0.846323, 0, -0.532669, 0, 1, 0, 0.532669, 0, 0.846323, -
 light_energy = 0.5
 
 [node name="UI" parent="." instance=ExtResource( 4 )]
-
