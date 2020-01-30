@@ -21,8 +21,8 @@ const onEvent = (eventName, eventData) => {
 			//createDemoEventButton();
 			window.setTimeout(() => {
 				window.gatewayToGodot.newEvent("load_model", `{
-					"pck_url": "CylCan.pck",
-					"model_path": "models/CylCan.tscn"
+					"pck_url": "CylCanModel.pck",
+					"model_path": "models/CylCanModel.tscn"
 				}`);
 			}, 1000);
 			break;
